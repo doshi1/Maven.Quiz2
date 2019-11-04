@@ -1,6 +1,9 @@
 package com.zipcodewilmington.assessment2.part2;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 // import org.apache.commons.lang3.ArrayUtils;
 public class ArrayUtility {
@@ -18,14 +21,28 @@ public class ArrayUtility {
     }
 
     public Integer[] rotate(Integer[] array, Integer index) {
-        return null;
+        ArrayList<Integer> newArray = new ArrayList<Integer>();
+        for(int idxToCopy = index; idxToCopy < array.length ; idxToCopy++){
+            newArray.add(array[idxToCopy]);
+        }
+        for(int idxToCopy = 0; idxToCopy < index ; idxToCopy++){
+            newArray.add(array[idxToCopy]);
+        }
+        return newArray.toArray(new Integer[newArray.size()]);
+
     }
 
     public Integer countOccurrence(Integer[] array1, Integer[] array2, Integer valueToEvaluate) {
-        return null;
+
+        List asListArray1 = Arrays.asList(array1);
+        List asListArray2 = Arrays.asList(array2);
+        int sum = Collections.frequency(asListArray1,valueToEvaluate) +
+                Collections.frequency(asListArray2,valueToEvaluate);
+        return sum;
     }
 
     public Integer mostCommon(Integer[] array) {
-        return null;
+ return null;
+
     }
 }

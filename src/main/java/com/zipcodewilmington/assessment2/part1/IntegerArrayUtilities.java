@@ -6,9 +6,10 @@ public class IntegerArrayUtilities {
     }
 
     public Integer[] range(int start, int stop) {
-       int counter = Integer.parseInt(null);
+       int[] range = null;
         for(int i = start; i <= stop; i++){
-            counter++;
+            range[i] += range[i];
+
         }
         return null;
     }

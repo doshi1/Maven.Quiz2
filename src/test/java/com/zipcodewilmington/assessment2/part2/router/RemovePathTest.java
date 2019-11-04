@@ -4,7 +4,7 @@ import com.zipcodewilmington.assessment2.part2.Router;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class RemovePathTest {
+public class    RemovePathTest {
     @Test
     public void test1() {
         test("/users", "UserController");

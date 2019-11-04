@@ -26,7 +26,9 @@ public class ListUtility {
 
     public String join() {
 
-        return null;
+        List<String> list = Arrays.asList();
+        String result = String.join(",", list);
+        return result;
     }
 
     public Integer mostCommon() {
