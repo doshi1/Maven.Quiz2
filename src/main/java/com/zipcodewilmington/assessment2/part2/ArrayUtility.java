@@ -1,9 +1,6 @@
 package com.zipcodewilmington.assessment2.part2;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 // import org.apache.commons.lang3.ArrayUtils;
 public class ArrayUtility {
@@ -42,7 +39,10 @@ public class ArrayUtility {
     }
 
     public Integer mostCommon(Integer[] array) {
- return null;
 
+        //Integer[] array1 = new Integer[newList.size()];
+        //ArrayUtility arrayUtility = new ArrayUtility();
+      //  return arrayUtility.mostCommon(newList.toArray(array));
+        return null;
     }
 }
