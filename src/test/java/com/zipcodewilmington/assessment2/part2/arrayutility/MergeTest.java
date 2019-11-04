@@ -64,7 +64,7 @@ public class MergeTest {
     }
 
 
-    private void test(Integer[] array1, Integer[] array2, Integer[] expected) {
+   private void test(Integer[] array1, Integer[] array2, Integer[] expected) {
         // when
         Integer[] actual = utility.merge(array1, array2);
 
